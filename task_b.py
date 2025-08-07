@@ -5,7 +5,7 @@ try:
     number_grade = float(user_grade)   
     
     if number_grade < 0 or number_grade > 100:
-        print("Error: Please enter a number between 0 and 100")
+        print("Error: Grades must be between 0 and 100")
         exit()
     
     
